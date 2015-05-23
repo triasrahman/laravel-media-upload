@@ -1,0 +1,21 @@
+{
+    "name": "triasrahman/media-upload",
+    "description": "",
+    "authors": [
+        {
+            "name": "Trias Nur Rahman",
+            "email": "contact@triasrahman.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*",
+        "intervention/image": "~2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Triasrahman\\MediaUpload": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
