@@ -1,6 +1,8 @@
 {
     "name": "triasrahman/media-upload",
-    "description": "",
+    "description": "Simple and easy AJAX media uploader for Laravel",
+    "keywords": ["ajax", "media", "uplioad", "file", "image", "laravel"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Trias Nur Rahman",
@@ -17,5 +19,5 @@
             "Triasrahman\\MediaUpload": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
