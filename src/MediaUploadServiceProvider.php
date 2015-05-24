@@ -32,7 +32,7 @@ class MediaUploadServiceProvider extends ServiceProvider {
         $this->app['router']->group($routeConfig, function($router) {
             $router->any($this->app['config']->get('media-upload.route', 'media-upload').'/{type?}', [
                 'uses' => 'MediaUploadController@index',
-                'as' => 'media-upload.index',
+                'as' => 'media-upload',
             ]);
         });
     }

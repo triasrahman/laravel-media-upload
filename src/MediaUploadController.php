@@ -55,12 +55,12 @@ class MediaUploadController extends \Illuminate\Routing\Controller
         }
 
         // saving file
-        $filename = str_random(10);
-        $file->move(public_path().'/'.$config['dir'], $filename.'.'.$ext);
+        $filename = date('U').str_random(10);
+        $file->move(public_path().'/'.$config['dir'].'/'.$type, $filename.'.'.$ext);
 
-        $file_path = $config['dir'].'/'.$filename.'.'.$ext;
+        $file_path = $config['dir'].'/'.$type.'/'.$filename.'.'.$ext;
 
-        if ( $format == 'image' && count($config['types'][$type]['image']) )
+        if ( $format == 'image' && isset($config['types'][$type]['image']) && count($config['types'][$type]['image']) )
         {
 
             $img = Image::make(public_path().'/'.$file_path);
