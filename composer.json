@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Triasrahman\\MediaUpload": "src/"
+            "Triasrahman\\MediaUpload\\": "src/"
         }
     },
     "minimum-stability": "dev"
