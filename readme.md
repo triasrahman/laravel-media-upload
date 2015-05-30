@@ -6,7 +6,7 @@
 
 > **This is a package to make AJAX upload process easy and simple! Enhance your customer experience and improve your system performance.**
 
-###[SEE DEMO]()
+###[SEE DEMO](http://laravel-media-upload.triasrahman.com)
 
 ## Requirements
 
