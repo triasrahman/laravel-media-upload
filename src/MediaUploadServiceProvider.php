@@ -26,8 +26,12 @@ class MediaUploadServiceProvider extends ServiceProvider {
         // Define the route
         $routeConfig = [
             'namespace' => 'Triasrahman\MediaUpload',
-            'middleware' => $this->app['config']->get('media-upload.middleware', ''),
         ];
+
+        if($this->app['config']->get('media-upload.middleware'))
+        {
+        	$routeConfig['middleware'] = $this->app['config']->get('media-upload.middleware');
+        }
 
         $this->app['router']->group($routeConfig, function($router) {
             $router->any($this->app['config']->get('media-upload.route', 'media-upload').'/{type?}', [
