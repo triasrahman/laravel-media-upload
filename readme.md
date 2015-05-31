@@ -1,5 +1,5 @@
 # Simple and Easy AJAX Media Upload for Laravel
-[![Build Status](https://travis-ci.org/triasrahman/laravel-media-upload.svg)](https://travis-ci.org/triasrahman/media-upload)
+[![Build Status](https://travis-ci.org/triasrahman/laravel-media-upload.svg?branch=master)](https://travis-ci.org/triasrahman/laravel-media-upload)
 [![Total Downloads](https://poser.pugx.org/triasrahman/media-upload/d/total.svg)](https://packagist.org/packages/triasrahman/media-upload)
 [![Latest Stable Version](https://poser.pugx.org/triasrahman/media-upload/v/stable.svg)](https://packagist.org/packages/triasrahman/media-upload)
 [![License](https://poser.pugx.org/triasrahman/media-upload/license.svg)](https://packagist.org/packages/triasrahman/media-upload)
