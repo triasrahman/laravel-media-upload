@@ -13,7 +13,7 @@
 	
 	<meta property="og:title" content="Laravel Media Upload Demo" />
 	<meta property="og:site_name" content="Laravel Media Upload"/>
-	<meta property="og:url" content="{{ route('home') }}" />
+	<meta property="og:url" content="{{ url('') }}" />
 	<meta property="og:description" content="This is a package to make AJAX upload process easy and simple! Enhance your customer experience and improve your system performance." />
 	{{-- <meta property="fb:app_id" content="" /> --}}
 	<meta name="twitter:site" content="@triasrahman">
