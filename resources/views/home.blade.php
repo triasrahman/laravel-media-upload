@@ -15,7 +15,7 @@
 </div>
 <div class="container">
 	<p class="lead">
-		Try it by uploading an image.
+		Try it by uploading an image (max. 1 MB).
 	</p>
 	<div class="row">
 		<div class="col-md-6">
