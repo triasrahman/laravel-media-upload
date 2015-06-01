@@ -15,6 +15,7 @@
 	<meta property="og:site_name" content="Laravel Media Upload"/>
 	<meta property="og:url" content="{{ url('') }}" />
 	<meta property="og:description" content="This is a package to make AJAX upload process easy and simple! Enhance your customer experience and improve your system performance." />
+	<meta property="og:image" content="http://www.gravatar.com/avatar/b5df782a25c0cfef80abcbe606ca11af?s=300">
 	{{-- <meta property="fb:app_id" content="" /> --}}
 	<meta name="twitter:site" content="@triasrahman">
 
